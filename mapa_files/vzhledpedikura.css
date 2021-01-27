@@ -1,0 +1,470 @@
+body {
+	background-color:white;
+}
+
+.hlavni {
+	background-color: white;	
+	/*border-style: ridge;
+	border-color: #333333;
+	border-width: 2px;*/
+	width: 995px;
+	margin-top: 0px;
+  margin-bottom: 0px;				
+}
+
+/* HLAVICKA */
+.hlavicka {
+	background-color: #ffcc99;	
+	border-style: ridge;
+	border-color: #333333;
+	border-width: 0px 0px 1px 0px;
+	margin: 0px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 13px;
+	color: #da2b6b;
+}
+.p_hlavicka_left_nadpis {
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: left;
+	margin: 0px 0px 0px 15px;
+}
+.p_hlavicka_left_nadpis h1 {
+  font-size: 22px;
+	margin: 0px 0px 0px 0px;
+}
+.p_hlavicka_left_nadpis2 {
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 18px;
+	text-align: left;
+	margin: 0px 0px 0px 15px;
+}
+.p_hlavicka_left_nadpis2 h2 {
+   font-size: 18px;
+   font-weight: normal;
+   margin: 0px 0px 0px 0px;
+}
+.p_hlavicka_left {
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 13px;
+	text-align: left;
+	margin: 0px 0px 0px 15px;
+}
+.p_hlavicka_right {
+	vertical-align: middle;
+	text-align: left;
+	padding-top:0px;
+}
+.hlavicka_right {
+	vertical-align: 50%;
+	margin-left:5px;		
+	margin-top:0px;
+}
+
+/* NAVIGACE */
+.navigace {
+	background-color: #ff3300;	
+	vertical-align: top;
+	text-align: left;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	margin: 0px;
+	color: #ffcc99;
+}
+.p_nav_link {
+	font-family: Arial, sans-serif;
+	font-weight: bold; 
+	font-size: 12px;
+	margin-left: 7px;
+	margin-right: 15px;
+	margin-top: 2px;
+	margin-bottom: 7px;
+	padding: 5px;
+	background-color: #da2b6b;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+.p_nav_title {
+	font-weight: bold; 
+	font-size: 12px; 
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+.p_nav_normal {
+	font-size: 10px; 
+	margin: 0px 0px 3px 10px;
+}
+.navigace p a:link {
+	color: #ffcc99;
+	text-decoration: none;
+}
+.navigace p a:visited {
+	color: #ffcc99;
+	text-decoration: none;
+}
+
+/* PRAVY BOK */
+.right_part {
+	background-color: #ffcc99;	
+	vertical-align: top;
+	padding-left: 10px;
+	padding-bottom: 15px;
+	text-align: left;
+}
+.right_stelky_title {
+	color: #8cc343;
+	background-color: yellow;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 12px;
+}
+.right_stelky_text {
+	color: #55c333;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 12px;
+	line-height: 1;
+	padding: 0px;
+}
+.right_image {
+	border-width: 0px;	
+}
+.pediatr_title {
+	margin-top: 20px;
+	margin-left: 0px;
+	text-align: left;	
+}
+.pediatr_title_span {
+	color: white;
+	background-color: #000088;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 11px;
+}
+.pediatr_table {
+	margin-top: 3px;
+}
+.pediatr_text {
+	font-family: Times New Roman, Times, serif;
+	font-weight: bold;
+	font-size: 11px;
+	vertical-align: bottom;
+}
+.olca_title {
+	margin-top: 20px;
+}
+.olca_title_span {
+	color: #ffcc99;
+	background-color: #ff00ff;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/* TADY ZACINAJI STYLY JEDNOTLIVYCH STRANEK */
+
+/* HLAVNI STRANKA */
+.main_part {
+	padding-left: 11px;
+	vertical-align: top;	
+	text-align: left;
+}
+.main_table {
+	width: 100%;
+	text-align: left;
+}
+.main_napis_poskytovane_sluzby {
+		vertical-align: top; 
+		font-family: Comic Sans, Comic Sans MS, cursive; 
+		font-size: 12px;
+		color: #da2b6b;
+}
+.main_nadpis {
+	margin-left: 35px;
+	margin-bottom: 7px;
+}
+.main_nadpis_span {
+		font-family: Arial, sans-serif;
+		font-size: 19px;
+		font-weight: bold; 
+		color: blue;
+}
+.main_text {
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		font-size: 12px;
+		color: #da2b6b;
+}
+.main_pedi_napis {
+	font-family: Arial, sans-serif;
+	margin-left: 25px;	
+}
+.main_manik_text {
+	margin-top: 17px;
+	margin-bottom: 14px;
+}
+.main_masaze {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #da2b6b;
+	margin-top: 11px;
+}
+
+/* MANIKURA */
+.manikura_nadpis_div {
+   margin-top: 10px;
+}
+.manikura_nadpis_span {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+  font-weight: bold;	
+	color: blue;
+	margin-top: 10px;
+}
+.manikura_maly_nadpis_span {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;	
+  color: #da2b6b;
+	margin-left: 5px;	
+}
+.manikura_text_div {
+  padding-left: 5px;
+}
+.manikura_text {
+  font-family: Times New Roman, Times, serif;
+  font-size: 13px;
+}
+
+/* MASAZE */
+.masaze_nadpis_div {
+  margin-top: 10px;
+}
+.masaze_nadpis_span {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+  font-weight: bold;	
+	color: blue;
+}
+.masaze_maly_nadpis_span {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;	
+  color: #da2b6b;
+	margin-left: 5px;	
+}
+.masaze_odstavec_div {
+  margin-top: 10px;
+  padding-left: 15px;
+}
+.masaze_odstavec_span {
+  font-family: Arial, sans-serif;
+  font-size: 15px;	
+  color: #da2b6b;
+}
+.masaze_text_div {
+  padding-left: 5px;
+}
+.masaze_text {
+  font-family: Times New Roman, Times, serif;
+  font-size: 13px;
+}
+
+/* PEDIKURA */
+.pedikura_nadpis_div {
+  margin-top: 10px;
+}
+.pedikura_nadpis_span {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+  font-weight: bold;	
+	color: blue;
+}
+.pedikura_maly_nadpis_span {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;	
+  color: #da2b6b;
+	margin-left: 5px;	
+}
+.pedikura_odstavec_div {
+  margin-top: 10px;
+  padding-left: 15px;
+}
+.pedikura_odstavec_span {
+  font-family: Arial, sans-serif;
+  font-size: 15px;	
+  color: #da2b6b;
+}
+.pedikura_text_div {
+  padding-left: 5px;
+}
+.pedikura_text {
+  font-family: Times New Roman, Times, serif;
+  font-size: 13px;
+}
+.pedikura_table_first_col {
+  vertical-align: top;
+}
+.pedikura_maly_nadpis_zaver {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;	
+  color: black;
+	margin-left: 0px;	
+}
+
+/* KONTAKT */
+.kontakt {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.kontakt_nadpis {
+  font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 26px;
+}
+.kontakt_nadpis2 {
+  font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 19px;
+}
+.kontakt_text {
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+}
+
+/* DARKOVE POUKAZY */
+.poukazy_background {
+	padding-left: 0px;
+	vertical-align: top;	
+	text-align: left;
+  background-color: #cc99ff;
+}
+.poukazy_napis1 {
+  font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 20px;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.poukazy_napis2 {
+  font-family: Times New Roman, Times, serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: yellow;
+}
+.poukazy_td {
+  border-width: 1;
+  border-color: black;
+}
+.poukazy_spodek {
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+/* KDE */
+.kde_uvod_napis_div {
+        text-align: left;
+        vertical-align: top;
+        font-family: Times New Roman, Times, serif;
+}
+.kde_uvod_nadpis {
+        font-size: 25px;
+        font-weight: bold;
+}
+.kde_uvod_text {
+        font-size: 13px;
+}
+.kde_mala_mapa {
+    position: absolute;
+    left: 130px;
+    top: 142px;
+    z-index: 0;
+}
+.kde_bottom {
+    text-align: left;
+}
+.kde_bottom_left {
+        vertical-align: top;
+        text-align: left;
+        font-family: Times New Roman, Times, serif;
+        font-size: 13px;
+        font-weight: bold;
+}
+.kde_bottom_right {
+        vertical-align: top;
+        text-align: left;
+        font-family: Times New Roman, Times, serif;
+        font-size: 13px;
+        font-weight: bold;
+}
+.kde_bottom_rightest {
+  
+}
+.kde_bottom_nadpis {
+    font-size: 25px;
+}
+.kde_bottom_image {
+    border: 0;
+}
+
+/* STELKY */
+.stelky_hlavni {
+	background-color: white;	
+	border-style: ridge;
+	border-color: #33ff33;
+	border-width: 4px;
+	width: 945px;
+	margin-top: 0px;
+  margin-bottom: 0px;	
+  font-family: Arial, sans-serif;
+	font-size: 17px;	
+	text-align: left;
+}
+.stelky_purple_text {
+  font-weight: bold;
+  color: #ff00ff;
+}
+.stelky_big_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.stelky_middle_table_first {
+  vertical-align: top;
+  text-align: left;
+}
+.stelky_middle_table_second {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.stelky_middle_center {
+  text-align: center;
+  margin-right: 200px;
+}
+.stelky_horni {
+  padding-left: 50px;
+}
+.stelky_spodni {
+  padding-left: 15px;
+}
+.stelky_middle_table_first2 {
+   vertical-align: top;
+   text-align: right;
+}
+.stelky_middle_table_second {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.stelky_spodni2 {
+  text-align: center;
+  margin-right: 100px;
+}
+.stelky_spodni2_big {
+   font-size: 22px;
+}
+.stelky_picture_spodni {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}

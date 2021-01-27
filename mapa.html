@@ -1,0 +1,107 @@
+<html><head><meta http-equiv="Context-Type" content="text/html; charset=windows-1250">
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MEDIVITA - Pedikúra a manikúra</title>
+    <link rel="stylesheet" type="text/css" href="mapa_files/vzhledpedikura.css">
+    <script type="text/javascript">
+		
+// Browser Window Size and Position
+// copyright Stephen Chapman, 3rd Jan 2005, 8th Dec 2005
+// you may copy these functions but please keep the copyright notice as well
+            function pageWidth() 
+              {
+              return window.innerWidth != null? window.innerWidth : 
+              document.documentElement && document.documentElement.clientWidth ? 
+              document.documentElement.clientWidth : document.body != null ? 
+              document.body.clientWidth : null;
+              } 
+            
+            // Zjisti pozici x-ove souradnice pro malou mapu. Zavisi na sirce okna.  
+            function xForSmallMap() {
+                     var windowSize = pageWidth();
+                     if (windowSize <= 1024) {
+                          return 130;
+                     }
+                     else {
+                          return 130 + Math.ceil((windowSize - 1024) / 2);
+                     }
+            }	
+            
+            function setXForSmallMap() {
+                  var a = xForSmallMap();
+                  /*document.write(a);*/
+                  document.getElementById("smallMap").style.left = xForSmallMap() + "px";
+            }
+            	
+    </script>
+</head>
+<body onresize="setXForSmallMap()"> <center>
+
+    <img src="mapa_files/insertpage_kde_obr3.jpg" class="kde_mala_mapa" id="smallMap" style="left: 545px;" width="250">
+    <div class="hlavni">
+        <table width="100%" cellspacing="0" border="0">
+            <tbody><tr>
+                <td class="kde_uvod_napis_div" width="35%"><span class="kde_uvod_nadpis">Kde nás najdete ?</span><br><br>
+                    <span class="kde_uvod_text">V přízemí polikliniky <a href="http://www.medivita.cz/">MEDIVITA</a><br>
+                  Hudcova 74a,  Brno - Medlánky<br>
+
+              Objekt polikliniky se nachází v těsné blízkosti vozovny autobusů Dopravního podniku města Brna
+            </span><br>
+                    <img src="mapa_files/insertpage_kde_obr1.jpg" style="position: absolute; margin-top: 7px; z-index: 1" width="140">
+                </td>
+                <!--<img src="insertpage_kde_obr3.jpg" width="250" class="kde_mala_mapa" />-->
+                <td>
+                    <div id="i_mapy1340091739117M" style="z-index: -1;"><script type="text/javascript" src="mapa_files/MapOut.html"></script>
+                    </div>
+                </td>
+            </tr>
+            </tbody></table>
+
+        <div class="kde_bottom">
+            <table style="margin-top: 10px; text-align: left" cellspacing="0" border="0">
+                <tbody><tr>
+                    <td class="kde_bottom_left" width="100"><span class="kde_bottom_nadpis">Spojení ?</span></td>
+                    <td class="kde_bottom_right"><a href="http://www.idos.cz/"><img src="mapa_files/idos.jpg" class="kde_bottom_image" width="100"></a>
+                    </td><td class="kde_bottom_rightest"></td>
+                </tr>
+                <tr>
+                    <td class="kde_bottom_left">Tramvaj: linka č.</td>
+                    <td class="kde_bottom_right">1&nbsp;&nbsp;zastávka  Hudcova: </td>
+
+                    <td class="kde_bottom_rightest"><a href="http://www.idos.cz/idsjmk/zjr/?l=1&amp;f=Ecerova&amp;t=Hudcova"><img src="mapa_files/chaps.jpg" class="kde_bottom_image" width="50"></a></td>
+                </tr>
+                <tr>
+                    <td class="kde_bottom_left"><img src="mapa_files/insertpage_kde_obrtram.jpg" width="100"></td>
+                    <td class="kde_bottom_right"></td>
+                    <td class="kde_bottom_rightest"></td>
+                </tr>
+                <tr>
+                    <td class="kde_bottom_left">Autobus: linka č.</td>
+                    <td class="kde_bottom_right">41	zastávka Vozovna Medlánky: </td>
+                    <td class="kde_bottom_rightest"><a href="http://www.idos.cz/idsjmk/zjr/?l=41&amp;f=Semilasso&amp;t=Vozovna%20Medlanky"><img src="mapa_files/chaps.jpg" class="kde_bottom_image" width="50"></a></td>
+
+                </tr>
+                <tr>
+                    <td class="kde_bottom_left" rowspan="2"><img src="mapa_files/insertpage_kde_obrbus.jpg" width="100"></td>
+                    <td class="kde_bottom_right">71	zastávka Vozovna Medlánky: </td>
+                    <td class="kde_bottom_rightest">
+                        <a href="http://www.idos.cz/idsjmk/zjr/?l=71&amp;f=Semilasso&amp;t=Vozovna%20Medlanky"><img src="mapa_files/chaps.jpg" class="kde_bottom_image" width="50"></a><br>
+                    </td>
+                </tr>
+                <script type="text/javascript">
+                  setXForSmallMap();
+       </script>
+
+                </tbody></table>
+        </div>
+        <hr>
+        <a href="http://pedikura-brno.eu/index.html">Zpět na hlavní stranu</a>
+
+    </div></center>
+
+
+
+
+</body></html>
